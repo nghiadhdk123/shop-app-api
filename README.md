@@ -1,4 +1,4 @@
-# vue-admin-base
+# node-admin-base
 
 ## Project setup
 ```
