@@ -13,6 +13,12 @@ DB_DATABASE=MY_DATABASE
 
 PORT_CONNECT=8080
 ```
+### Create file public/uploads contains images
+```
+cd src
+
+mkdir -p public/uploads
+```
 
 ### Start serve
 ```
