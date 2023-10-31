@@ -1,0 +1,110 @@
+{
+    "_id" : ObjectId("65406bf6450f6cc52ff15ad4"),
+    "name" : "Ihpone 8",
+    "price" : NumberInt(7500000),
+    "categoryId" : ObjectId("653c8b180909b3cefbbf7cdc"),
+    "slug" : "ihpone-8_285ff29f980a4fa95e3afa26c5d22d4e",
+    "image" : "1698720758131-iphone-8.jpg",
+    "created_at" : ISODate("2023-10-31T02:52:38.140+0000"),
+    "updated_at" : ISODate("2023-10-31T02:52:38.140+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406c02450f6cc52ff15ad8"),
+    "name" : "Ihpone 7",
+    "price" : NumberInt(7500000),
+    "categoryId" : ObjectId("653c8b180909b3cefbbf7cdc"),
+    "slug" : "ihpone-7_aa2e8f59551bbe051feefee919ab5cfa",
+    "image" : "1698720770791-iphone-7.jpg",
+    "created_at" : ISODate("2023-10-31T02:52:50.795+0000"),
+    "updated_at" : ISODate("2023-10-31T02:52:50.795+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406c18450f6cc52ff15adc"),
+    "name" : "Ihpone 15",
+    "price" : NumberInt(15000000),
+    "categoryId" : ObjectId("653c8b180909b3cefbbf7cdc"),
+    "slug" : "ihpone-15_592f30421e0cc72d021e5365ade7707f",
+    "image" : "1698720792326-iphone-15.jpg",
+    "created_at" : ISODate("2023-10-31T02:53:12.358+0000"),
+    "updated_at" : ISODate("2023-10-31T02:53:12.358+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406cae450f6cc52ff15ae0"),
+    "name" : "Samsung Galaxy S23 5G 256GB",
+    "price" : NumberInt(24990000),
+    "categoryId" : ObjectId("653ca9d10909b3cefbe2c629"),
+    "slug" : "samsung-galaxy-s23-5g-256gb_dd41d96c14fbbdf0fb37ea43a774da9f",
+    "image" : "1698720942447-samsum-1.jpg",
+    "created_at" : ISODate("2023-10-31T02:55:42.450+0000"),
+    "updated_at" : ISODate("2023-10-31T02:55:42.450+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406cf8450f6cc52ff15ae4"),
+    "name" : "Samsung Galaxy Z Flip4 5G 128GB",
+    "price" : NumberInt(24990000),
+    "categoryId" : ObjectId("653ca9d10909b3cefbe2c629"),
+    "slug" : "samsung-galaxy-z-flip4-5g-128gb_c34f48deebf645cd68907fc1086e5b60",
+    "image" : "1698721016203-samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg",
+    "created_at" : ISODate("2023-10-31T02:56:56.209+0000"),
+    "updated_at" : ISODate("2023-10-31T02:56:56.209+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406d50450f6cc52ff15aef"),
+    "name" : "Xiaomi Redmi 10 2022 4GB-128GB ",
+    "price" : NumberInt(3290000),
+    "categoryId" : ObjectId("65406d0d450f6cc52ff15ae9"),
+    "slug" : "xiaomi-redmi-10-2022-4gb-128gb_4afd842fa2fd8f64aa2f1362f945d26d",
+    "image" : "1698721104645-xiaomi-redmi-10-2022-xanh-thumb.jpg",
+    "created_at" : ISODate("2023-10-31T02:58:24.650+0000"),
+    "updated_at" : ISODate("2023-10-31T02:58:24.650+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406d8a450f6cc52ff15af3"),
+    "name" : "OPPO Reno8 T 4G 256GB",
+    "price" : NumberInt(3290000),
+    "categoryId" : ObjectId("653d0bda593231e7dc7f46d3"),
+    "slug" : "oppo-reno8-t-4g-256gb_6b0701f8c53b18f843a6176188fe3f8b",
+    "image" : "1698721162203-oppo-reno8-t-4g_main_401_1020.png.webp",
+    "created_at" : ISODate("2023-10-31T02:59:22.240+0000"),
+    "updated_at" : ISODate("2023-10-31T02:59:22.240+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406dc3450f6cc52ff15af7"),
+    "name" : "OPPO A58 6GB-128GB",
+    "price" : NumberInt(3290000),
+    "categoryId" : ObjectId("653d0bda593231e7dc7f46d3"),
+    "slug" : "oppo-a58-6gb-128gb_57335f6f5c6218a30d63679219238bd9",
+    "image" : "1698721219722-oppo-a78-4g-black-thumb.jpg",
+    "created_at" : ISODate("2023-10-31T03:00:19.725+0000"),
+    "updated_at" : ISODate("2023-10-31T03:00:19.725+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406e18450f6cc52ff15afb"),
+    "name" : "Nokia 105 DS Pro 4G",
+    "price" : NumberInt(680000),
+    "categoryId" : ObjectId("653d092a593231e7dc7f46cd"),
+    "slug" : "nokia-105-ds-pro-4g_64615b7376ccde438db3d8858dca0bf6",
+    "image" : "1698721304605-nokia-105-DS-pro.jpeg",
+    "created_at" : ISODate("2023-10-31T03:01:44.618+0000"),
+    "updated_at" : ISODate("2023-10-31T03:01:44.618+0000"),
+    "__v" : NumberInt(0)
+}
+{
+    "_id" : ObjectId("65406e94450f6cc52ff15aff"),
+    "name" : "Vertu Signature V Stainless Steel Pure Silver",
+    "price" : NumberInt(480990000),
+    "categoryId" : ObjectId("65406b48450f6cc52ff15acf"),
+    "slug" : "vertu-signature-v-stainless-steel-pure-silver_37bf680bbbb2b74ec3c99b82d30138b5",
+    "image" : "1698721428983-vetur-sliver.jpg",
+    "created_at" : ISODate("2023-10-31T03:03:48.985+0000"),
+    "updated_at" : ISODate("2023-10-31T03:03:48.985+0000"),
+    "__v" : NumberInt(0)
+}
