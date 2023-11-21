@@ -5,19 +5,24 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seeder": "node src/seeders/DatabaseSeeder.js --exit"
   },
   "author": "TĐN",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-group-routes": "^1.1.0",
+    "jsonwebtoken": "^9.0.2",
     "md5": "^2.3.0",
     "mongoose": "^7.6.3",
     "multer": "^1.4.5-lts.1",
     "nodemon": "^3.0.1",
-    "slug": "^8.2.3"
+    "slug": "^8.2.3",
+    "socket.io": "^4.7.2"
   }
 }

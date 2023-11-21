@@ -1,6 +1,6 @@
 const slug = require('slug');
 const md5 = require('md5');
-const Product = require('../modules/Product');
+const Product = require('../models/Product');
 
 class ProductController
 {
@@ -11,7 +11,7 @@ class ProductController
             res.status(200).json({data: products, message: "Success"});
 
         } catch (error) {
-            res.status(400).json({err: error.message});
+            res.status(500).json({err: error.message});
         }
     }
 
@@ -29,7 +29,7 @@ class ProductController
             res.json({request: "Success"});
 
         } catch (error) {
-            res.status(400).json({err: error.message});
+            res.status(500).json({err: error.message});
         }
     }
 
@@ -38,7 +38,7 @@ class ProductController
             const product = await Product.findOne({'slug': req.params.slug}).populate({ path: 'categoryId', select: ['name'] })
             res.status(200).json({data: product, message: "Success"});
         } catch (error) {
-            res.status(400).json({err: error.message});
+            res.status(500).json({err: error.message});
         }
     }
 }

@@ -1,6 +1,7 @@
 const slug = require('slug');
 const md5 = require('md5');
-const Category = require('../modules/Category');
+const Category = require('../models/Category');
+const Product = require('../models/Product');
 
 class CategoryController
 {
@@ -10,7 +11,7 @@ class CategoryController
             res.status(200).json({data: categories, message: 'Success'});
 
         } catch (error) {
-            res.status(400).json({message: error.message});
+            res.status(500).json({message: error.message});
         }
     }
 
@@ -24,7 +25,19 @@ class CategoryController
             res.status(200).json({message: "Success"});
             
         } catch (error) {
-            res.status(400).json({message: error.message});
+            res.status(500).json({message: error.message});
+        }
+    }
+
+    async detail(req, res) {
+        try {
+            const category = await Category.findOne({'slug': req.params.slug}, '_id name');
+            const products = await Product.find({'categoryId': category._id}, '_id name slug image price');
+
+            res.status(200).json({category, products});
+
+        } catch (error) {
+            res.status(500).json({message: error.message});
         }
     }
 }
